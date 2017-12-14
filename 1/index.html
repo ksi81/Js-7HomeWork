@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Document1-3</title>
+        <link rel="stylesheet" href="my.css">
+
+    </head>
+
+    <body>
+        <p> Задание 1. Добавьте на страницу элемент input[type=»text»]. Справа от input расположите кнопку «+». При нажатии кнопки «+» добавьте еще один элемент input ниже. Возле появившегося элемента создайте кнопку «-» при нажатии на которую данный input
+            будет удаляться. Внизу формы расположите кнопку «собрать», по нажатию которой текст из элементов input будет выведен в расположенный на странице textarea. Внимание: Количество input на странице не больше . Удалять можно все элементы input
+            кроме последнего.</p>
+        <div class="menu">
+            <div>
+                <p> <input type="text" id="inp"><span class="red"></span><button class="pluss"> + </button></p>
+                <br>
+            </div>
+        </div>
+        <textarea rows="10" cols="45" class="out"></textarea>
+        <button id="summ"> Собрать </button></p>
+        <p>Задание 2. Модифицируйте задание 1, добавив три input[type=»radio»]. В опциях первого укажите «Четные», у второго — «Нечетные», у третьего — «Все». В зависимости от выбранной опции, информация считывается соответственно из четных, нечетных или
+            всех input на странице. По умолчанию выбран последний radiobutton.</p>
+
+        <input type="radio" value="even"><label for="even">Чётные</label><br>
+        <input type="radio" value="notEven"><label for="notEven">Нечётные</label><br>
+        <input type="radio" value="all" checked><label for="all">Все</label>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/js.js"></script>
+    </body>
+
+</html>
